@@ -51,10 +51,13 @@ Certains élèves ont des aménagements afin de rédiger leurs devoirs de maniè
 - L'élève appelle l'enseignant puis l'enseignant donne à l'élève l'autorisation de quitter l'examen.
 
 - L'enseignant vérifie la cohérence des informations qui s'affichent :
-  - Date de début et de fin de l'examen
+  - Date de début et de fin de l'examen (l'élève peut avoir quitté le logiciel entre temps ...)
   - Présence de comportement suspect ou non
+  - Certains comportement suspect génère des captures d'écrans que l'enseignant peut consulter.
 
 - L'enseignant retire le partage pour éviter à l'élève de modifier le document à postériori
 
 ![image](https://user-images.githubusercontent.com/53106394/220181775-ffaa88fc-fb51-480e-bb40-d3fdc30cd723.png)
+
+- L'enseignant peut ensuite consulter la copie à tout moment via le cloud de l'EN (astuce : il peut même consulter la copie pendant que l'élève la rédige !)
 
