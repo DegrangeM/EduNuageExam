@@ -29,19 +29,15 @@ Certains élèves ont des aménagements afin de rédiger leurs devoirs de maniè
 - L'enseignant se rend sur le [cloud de l'éducation nationale](https://nuage.apps.education.fr/)
 
 - L'enseignant créé un nouveau document texte
-
 <img src="https://user-images.githubusercontent.com/53106394/220179566-dbba53de-b307-40a1-8424-5e454573b693.png" height="200" />
 
 - L'enseignant créé un lien de partage
-
 <img src="https://user-images.githubusercontent.com/53106394/220180416-05fc1114-80ac-4c4e-b793-bc0b9cdb14c1.png" height="200" />
 
 - L'enseignant donne les droits de modification
-
 <img src="https://user-images.githubusercontent.com/53106394/220180135-7a382ded-1ebb-4c43-8db4-6dd22192786e.png" height="200" />
 
 - L'enseignant copie le lien de partage et l'envoi à l'élève (via la messagerie de l'ent par exemple)
-
 <img src="https://user-images.githubusercontent.com/53106394/220180743-c187a880-747c-44d2-b6af-a5dde9bac5d3.png" />
 
 - L'enseignant peut demander par précaution à l'élève de fermer tous les logiciels ouvert sur son ordinateur.
