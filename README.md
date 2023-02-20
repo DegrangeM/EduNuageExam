@@ -38,7 +38,7 @@ Certains élèves ont des aménagements afin de rédiger leurs devoirs de maniè
 
 - L'enseignant donne les droits de modification
 
-<img src="https://user-images.githubusercontent.com/53106394/220180135-7a382ded-1ebb-4c43-8db4-6dd22192786e.png" width=250" />
+<img src="https://user-images.githubusercontent.com/53106394/220180135-7a382ded-1ebb-4c43-8db4-6dd22192786e.png" width="250" />
 
 - L'enseignant copie le lien de partage et l'envoi à l'élève (via la messagerie de l'ent par exemple)
 
