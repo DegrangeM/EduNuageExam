@@ -14,6 +14,10 @@ Certains élèves ont des aménagements afin de rédiger leurs devoirs de maniè
 
 - L'élève lance le logiciel
 
+- L'élève récupère le lien du devoir (par exemple via la messagerie de son ENT)
+
+- L'élève clic sur le bouton débuter l'examen, si possible devant l'enseignant
+
 - L'élève compose son devoir. L'application est en plein écran et il n'a pas accès au reste de son ordinateur.
 
 - L'élève appelle l'enseignant et l'élève quitte le logiciel. En cas de comportement suspect, un message donne des détails à l'enseignant.
@@ -28,8 +32,15 @@ Certains élèves ont des aménagements afin de rédiger leurs devoirs de maniè
 
 - L'enseignant créé un lien de partage
 
-![image](https://user-images.githubusercontent.com/53106394/220179916-3be0db56-4b37-4c61-9d38-006919bbfb7d.png)
+![image](https://user-images.githubusercontent.com/53106394/220180416-05fc1114-80ac-4c4e-b793-bc0b9cdb14c1.png)
 
 - L'enseignant donne les droits de modification
 
 ![image](https://user-images.githubusercontent.com/53106394/220180135-7a382ded-1ebb-4c43-8db4-6dd22192786e.png)
+
+- L'enseignant copie le lien de partage et l'envoi à l'élève (via la messagerie de l'ent par exemple)
+
+![image](https://user-images.githubusercontent.com/53106394/220180743-c187a880-747c-44d2-b6af-a5dde9bac5d3.png)
+
+- L'élève lance le lo
+
