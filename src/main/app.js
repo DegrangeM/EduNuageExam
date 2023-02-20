@@ -1,4 +1,4 @@
-const { app, BrowserWindow, dialog, ipcMain, globalShortcut, Menu } = require('electron')
+const { app, BrowserWindow, dialog, ipcMain, globalShortcut, Menu, clipboard } = require('electron')
 const path = require('path')
 const fsPromise = require('fs/promises')
 const { netLog } = require('electron')
@@ -92,6 +92,9 @@ app.whenReady().then(() => {
             type: 'startExam',
             time: new Date().getTime()
           });
+
+          // On vide le presse papier
+          clipboard.clear();
 
           // On met la fenêtre en plein écran et toujours au premier plan
           EduNuageExam.mainWindow.setFullScreen(true);
