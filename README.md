@@ -55,7 +55,7 @@ Certains élèves ont des aménagements afin de rédiger leurs devoirs de maniè
   - Présence de comportement suspect ou non
   - Certains comportement suspect génère des captures d'écrans que l'enseignant peut consulter.
 
-- L'enseignant retire le partage pour éviter à l'élève de modifier le document à postériori
+- L'enseignant retire le partage (pour éviter que l'élève puisse modifier le document à postériori)
 
 <img src="https://user-images.githubusercontent.com/53106394/220181775-ffaa88fc-fb51-480e-bb40-d3fdc30cd723.png" height="200" />
 
