@@ -73,6 +73,24 @@ app.whenReady().then(() => {
     if (/^nuage[0-9]+\.apps\.education\.fr$/.test(currentURL.hostname) && currentURL.pathname.startsWith('/index.php/s/')) {
       // Il s'agit d'une url de partage, on déclenche la sécurisation !
 
+      // Nextcloud va supprimer l'intégration si l'utilisateur ne choisi par de nom d'utilisateur avant 15s
+      // On détecte cette suppression afin de la remettre si besoin ...
+      // Cela évitera également que l'élève ferme par erreur le fichiers via le Menu Fichier > Fermer le document
+
+      EduNuageExam.mainWindow.webContents.executeJavaScript(`
+        const observer = new MutationObserver(records => {
+          for (const {target, removedNodes} of records) {
+              const element = Array.from(removedNodes).filter(x => x.id === "richdocumentsframe");
+              if (element.length) {
+                  document.body.appendChild(element[0], document.body);
+              }
+          }
+        });
+        observer.observe(document.body, {
+            childList: true
+        });
+      0`);
+
       // On affiche une popup demandant si l'on souhaite démarer l'examen et on
       // indique que l'écran pourra être enregistrée et que l'accès au reste de
       // l'ordinateur sera bloquée
@@ -86,7 +104,6 @@ app.whenReady().then(() => {
         defaultId: 0,
       }).then((result) => {
         if (result.response === 0) { // Démarrer l'examen
-
 
           EduNuageExam.events.push({
             type: 'startExam',
