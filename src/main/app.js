@@ -14,32 +14,59 @@ const EduNuageExam = {
 
 app.whenReady().then(() => {
 
-  // ipcMain.handle('openHelp', openHelp);
 
   EduNuageExam.mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
     useContentSize: true,
-    webPreferences: {
-      // preload: path.join(__dirname, '../preload/app.js')
-    },
     icon: path.join(__dirname, '../../resources/logo.png')
   })
 
-  const menu = Menu.buildFromTemplate([{
-    label: 'EduNuageExam',
-    submenu: [{
-      label: "Quitter le logiciel",
-      click: () => {
-        EduNuageExam.mainWindow.close();
+  const menu = Menu.buildFromTemplate(
+    [
+      {
+        label: 'EduNuageExam',
+        submenu: [{
+          label: "Quitter le logiciel",
+          click: () => {
+            EduNuageExam.mainWindow.close();
+          }
+        }]
+      },
+      {
+        label: 'Navigateur',
+        submenu: [
+          {
+            label: "Recharger la page", /* en vidant le cache */
+            role: 'forceReload' /* 'reload' */
+          },
+          {
+            label: "Précédent",
+            click: () => {
+              EduNuageExam.mainWindow.webContents.goBack();
+            }
+          }
+        ]
       }
-    }]
-  }]);
+    ]);
 
   EduNuageExam.mainWindow.setMenu(menu);
 
-
-  // todo https://www.electronjs.org/docs/latest/api/web-contents#contentssetwindowopenhandlerhandler
+  EduNuageExam.mainWindow.webContents.setWindowOpenHandler(({ url }) => {
+    dialog.showMessageBox(EduNuageExam.mainWindow, {
+      type: 'question',
+      buttons: ['Ouvrir l\'url', 'Rester sur la page'],
+      title: 'Le site essaye d\'ouvrir une nouvelle page',
+      message: 'Le site essaye d\'ouvrir une nouvelle page. Voulez-vous l\'ouvrir ?',
+      cancelId: 1,
+      defaultId: 0,
+    }).then((result) => {
+      if (result.response === 0) { // Ouvrir l'url
+        EduNuageExam.mainWindow.loadURL(url);
+      }
+    });
+    return { action: 'deny' };
+  });
 
   EduNuageExam.mainWindow.webContents.on('dom-ready', function () {
     const currentURL = new URL(this.getURL())
@@ -60,13 +87,26 @@ app.whenReady().then(() => {
       }).then((result) => {
         if (result.response === 0) { // Démarrer l'examen
 
+
           EduNuageExam.events.push({
             type: 'startExam',
             time: new Date().getTime()
           });
 
+          // On met la fenêtre en plein écran et toujours au premier plan
           EduNuageExam.mainWindow.setFullScreen(true);
           EduNuageExam.mainWindow.setAlwaysOnTop(true, 'pop-up-menu');
+
+          EduNuageExam.mainWindow.webContents.setWindowOpenHandler(({ url }) => {
+            const event = {
+              type: 'triedOpenUrl',
+              time: new Date().getTime(),
+              data: url
+            };
+            EduNuageExam.events.push(event);
+            screenshot({ filename: `./data/${event.time}-${event.type}-${EduNuageExam.events.length}.jpg` })
+            return { action: 'deny' };
+          });
 
           const menu = Menu.buildFromTemplate(
             [
@@ -91,21 +131,35 @@ app.whenReady().then(() => {
                             type: 'quitExam',
                             time: new Date().getTime()
                           });
-                          EduNuageExam.willOpenDialog = true;
-                          dialog.showMessageBox(EduNuageExam.mainWindow, {
-                            type: EduNuageExam.events.length == 2 ? 'info' : 'error',
-                            buttons: ['Ok'],
-                            title: 'Examin terminé',
-                            message: `Début : ${new Date(EduNuageExam.events[0].time).toLocaleString()}
+                          const report = {
+                            resume: `Début : ${new Date(EduNuageExam.events[0].time).toLocaleString()}
                               Fin: ${new Date(EduNuageExam.events[EduNuageExam.events.length - 1].time).toLocaleString()}
                               Durée : ${Math.round((EduNuageExam.events[EduNuageExam.events.length - 1].time - EduNuageExam.events[0].time) / 1000 / 60)} minutes`
-                              .replace(/^\s+/gm,''),
-                            detail: EduNuageExam.events.map((event) => `${new Date(event.time).toLocaleTimeString()} : ${event.type}`).join('\n'),
-                            defaultId: 0
-                          }).then((result) => {
+                              .replace(/^\s+/gm, ''),
+                            details: EduNuageExam.events.map((event) => `${new Date(event.time).toLocaleTimeString()} : ${event.type}`
+                              + (event.data ? ` (${event.data})` : '')).join('\n')
+                          }
+                          EduNuageExam.willOpenDialog = true;
+                          Promise.allSettled(
+                            [
+                              dialog.showMessageBox(EduNuageExam.mainWindow, {
+                                type: EduNuageExam.events.length == 2 ? 'info' : 'error',
+                                buttons: ['Ok'],
+                                title: 'Examin terminé',
+                                message: report.resume,
+                                detail: report.details,
+                                defaultId: 0
+                              }),
+                              fsPromise.writeFile(
+                                './data/report-' + EduNuageExam.events[0].time + '.txt',
+                                `${report.resume}
+                                -----------------------
+                                ${report.details}`.replace(/^\s+/gm, '')
+                              )
+                            ]
+                          ).then((result) => {
                             app.quit();
                           });
-
                         } else {
                           const event = {
                             type: 'triedToQuitExam',
@@ -191,7 +245,7 @@ app.whenReady().then(() => {
           });
 
           EduNuageExam.mainWindow.webContents.on('focus', function () {
-            if(!EduNuageExam.gotBlurred) {
+            if (!EduNuageExam.gotBlurred) {
               return;
             }
             EduNuageExam.gotBlurred = false;
@@ -216,22 +270,20 @@ app.whenReady().then(() => {
           });
 
         } else {
-          EduNuageExam.mainWindow.webContents.executeJavaScript(`
-            if(history.length > 1) {
-              history.back();
-            } else {
-              window.close();
-            }
-          0`);
+          if (EduNuageExam.mainWindow.webContents.canGoBack()) {
+            EduNuageExam.mainWindow.webContents.goBack();
+          } else {
+            app.quit();
+          }
         }
       });
     }
   });
 
-  
+
   fsPromise.mkdir('./data/', { recursive: true }).then(() => {
-  // On créé le dossier qui contiendra les captures d'écrans
-  // recursive: true évite une erreur si le dossier existe déjà
+    // On créé le dossier qui contiendra les captures d'écrans
+    // recursive: true évite une erreur si le dossier existe déjà
     fsPromise.readFile('home.txt', { encoding: 'utf8' }).then((result) => {
       const url = new URL(result);
       if (url.protocol !== 'https:' && url.protocol !== 'http:') {
