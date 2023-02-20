@@ -42,7 +42,7 @@ Certains élèves ont des aménagements afin de rédiger leurs devoirs de maniè
 
 - L'enseignant copie le lien de partage et l'envoi à l'élève (via la messagerie de l'ent par exemple)
 
-<img src="https://user-images.githubusercontent.com/53106394/220180743-c187a880-747c-44d2-b6af-a5dde9bac5d3.png" height="200" />
+<img src="https://user-images.githubusercontent.com/53106394/220180743-c187a880-747c-44d2-b6af-a5dde9bac5d3.png" />
 
 - L'élève lance le logiciel, ouvre le lien du devoir, et clic sur le bouton pour débuter l'examen (si possible devant l'enseignant)
 
