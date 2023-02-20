@@ -44,7 +44,9 @@ Certains élèves ont des aménagements afin de rédiger leurs devoirs de maniè
 
 <img src="https://user-images.githubusercontent.com/53106394/220180743-c187a880-747c-44d2-b6af-a5dde9bac5d3.png" />
 
-- L'élève lance le logiciel, ouvre le lien du devoir, et clic sur le bouton pour débuter l'examen (si possible devant l'enseignant)
+- L'enseignant peut demander par précaution à l'élève de fermer tous les logiciels ouvert sur son ordinateur.
+
+- L'élève lance le logiciel, ouvre le lien du devoir, et clic sur le bouton pour débuter l'examen (si possible devant l'enseignant).
 
 - L'élève compose son devoir. L'application est en plein écran et il n'a pas accès au reste de son ordinateur.
 
