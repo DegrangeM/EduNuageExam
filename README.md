@@ -67,9 +67,9 @@ Certains élèves ont des aménagements afin de rédiger leurs devoirs de maniè
 
 - Vous pouvez demander aux élèves de télécharger le logiciel (mais ne faites pas un lien directement vers ce site car il contient des informations sur les mesures de sécurités, préférez mettre en ligne le fichier zip du logiciel sur votre ent par exemple) mais cela permet aux élèves de tester le logiciel de leur côté et d'éventuellement chercher à contourner les sécurités. Une meilleure solution est de faire acheté par son établissement des clefs usb (1Go est largement suffisant !) et d'y mettre le logiciel. Vous pouvez ainsi brancher la clef avant le début de l'évaluation, puis la retirer à la fin de l'évaluation (et il suffit de mettre ces clefs usb à disposition des enseignants pour avoir un système peu contraignant).
 
-- Un élève pourrait très bien avoir un complice hors établissement qui se connecte à son compte ENT et modifie le document en même temps que l'élève ... 
+- Un élève pourrait très bien avoir un complice hors établissement qui se connecte à son compte ENT et modifie le document en même temps que l'élève ... vous pouvez passer dans les rangs et vérifier en haut à droite si plus d'une personne est connecté au document.
 
-- Outil désactivé
+- Pour éviter que l'élève utiliser les fonctionnalités de traduction et de correcteur orthographique (hors français) le menu `Outils` est désactivé. Cela veut aussi dire qu'il ne peut pas utiliser ce menu pour compter le nombre de mot par exemple.
 
 - Si un élève a fermé le logiciel sans vous avoir montré le message de fin vous pouvez trouver dans le dossier `data` un fichier txt comportant toutes ces informations. Mais attention l'élève peut avoir tout simplement modifié ce fichier ... Il vaudrait mieux refaire passer l'évaluation à l'élève.
 
