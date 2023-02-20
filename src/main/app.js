@@ -166,6 +166,7 @@ app.whenReady().then(() => {
                             time: new Date().getTime()
                           };
                           EduNuageExam.events.push(event);
+                          EduNuageExam.gotBlurred = true;
                           screenshot({ filename: `./data/${event.time}-${event.type}-${EduNuageExam.events.length}.jpg` })
                           setTimeout(() => {
                             screenshot({ filename: `./data/${event.time}-${event.type}-${EduNuageExam.events.length}-1.jpg` })
