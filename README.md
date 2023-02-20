@@ -5,7 +5,9 @@
 
 *EduNuageExam est une solution permettant de faire composer les élèves dans une interface sécurisée.*
 
-Certains élèves ont des aménagements afin de rédiger leurs devoirs de manière informatique. Malheureusement certains en profite pour tricher (utilisation de site de traduction en ligne par exemple). Ce logiciel qui s'utilise conjointement avec le cloud de l'éducation nationnale permet de limiter les risques de triches en bloquant les élèves sur l'interface de rédaction afin d'éviter toute consultation d'un autre site web ou fichier présent sur l'ordinateur. Le logiciel 
+![image](https://user-images.githubusercontent.com/53106394/220195418-f24f704f-aecc-40d4-9669-50eb2a273fcb.png)
+
+Certains élèves ont des aménagements afin de rédiger leurs devoirs sur ordinateur. Malheureusement certains en profitent pour tricher (utilisation de site de traduction en ligne par exemple). Ce logiciel qui s'utilise conjointement avec le cloud de l'éducation nationnale permet de limiter les risques de triches en bloquant les élèves sur l'interface de rédaction afin d'éviter toute consultation d'un autre site web ou fichier présent sur l'ordinateur. Le logiciel 
 
 ![image](https://user-images.githubusercontent.com/53106394/220179066-473031ce-4272-4149-a89c-691a4e7dfc54.png)
 
@@ -86,3 +88,13 @@ Vous pouvez également mettre directement l'url du fichier partagé. Ainsi l'él
 Si ce logiciel permet de limiter le risque de triche, il ne permet pas de le bloquer entièrement. Le système d'enregristement des comportements suspects permet (s'il est correctement utilisé) de détecter certaines triches que le logiciel n'a pas réussi à bloqué. Si cela devrait être suffisement pour la quasi totalité des cas, il reste en revanche toujours des moyens avancés de contourner toutes ces mesures de sécurités. 
 
 N'oubliez pas non plus que la triche peut avoir lieu par des moyens externes à l'ordinateur (téléphone, montre connecté, anti-sèche, etc.).
+
+## Les sécurités mises en places
+
+- La fenêtre du logiciel est mise en plein écran et le mode "Toujours au dessus" est activé.
+
+- Si la fenêtre du logiciel n'est plus active, elle essaie de redevenir active.
+
+- Le logiciel enregistre les comportements suspects et prend éventuellement des captures d'écran.
+
+- Le presse-papier est vidé au lancement du logiciel
