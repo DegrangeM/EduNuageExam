@@ -266,6 +266,10 @@ app.whenReady().then(() => {
             setTimeout(() => {
               screenshot({ filename: `./data/${event.time}-${event.type}-${EduNuageExam.events.length}-4.jpg` })
             }, 30000);
+
+            // On essaie de remettre le focus sur la fenêtre principale
+            setTimeout(() => { try { EduNuageExam?.mainWindow?.focus(); } catch (e) { } }, 0);
+
           });
 
           EduNuageExam.mainWindow.webContents.on('focus', function () {
