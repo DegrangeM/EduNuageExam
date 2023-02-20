@@ -17,3 +17,19 @@ Certains élèves ont des aménagements afin de rédiger leurs devoirs de maniè
 - L'élève compose son devoir. L'application est en plein écran et il n'a pas accès au reste de son ordinateur.
 
 - L'élève appelle l'enseignant et l'élève quitte le logiciel. En cas de comportement suspect, un message donne des détails à l'enseignant.
+
+## Fonctionnement du logiciel (du point de vu de l'enseignant)
+
+- L'enseignant se rend sur le [cloud de l'éducation nationale](https://nuage.apps.education.fr/)
+
+- L'enseignant créé un nouveau document texte
+
+![image](https://user-images.githubusercontent.com/53106394/220179566-dbba53de-b307-40a1-8424-5e454573b693.png)
+
+- L'enseignant créé un lien de partage
+
+![image](https://user-images.githubusercontent.com/53106394/220179916-3be0db56-4b37-4c61-9d38-006919bbfb7d.png)
+
+- L'enseignant donne les droits de modification
+
+![image](https://user-images.githubusercontent.com/53106394/220180135-7a382ded-1ebb-4c43-8db4-6dd22192786e.png)
