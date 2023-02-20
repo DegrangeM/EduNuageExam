@@ -29,9 +29,6 @@
     "forge": {
       "packagerConfig": {
         "icon": "./resources/logo",
-        "ignore": [
-          "\\.rclone\\.conf$"
-        ],
         "extraResource": []
       },
       "makers": [
