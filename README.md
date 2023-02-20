@@ -12,7 +12,7 @@ Certains élèves ont des aménagements afin de rédiger leurs devoirs de maniè
 
 ## Fonctionnement du logiciel (du point de vu de l'élève)
 
-- L'élève lance le logiciel.
+- L'élève lance le logiciel via le fichier `EduNuageExam.exe`.
 
 - L'élève ouvre le lien du devoir (qui a par exemple été envoyé via la messagerie de son ENT).
 
@@ -63,3 +63,20 @@ Certains élèves ont des aménagements afin de rédiger leurs devoirs de maniè
 
 - L'enseignant peut ensuite consulter la copie à tout moment via le cloud de l'EN (astuce : il peut même consulter la copie pendant que l'élève la rédige !)
 
+## Conseil
+
+Vous pouvez demander aux élèves de télécharger le logiciel (mais ne faites pas un lien directement vers ce site car il contient des informations sur les mesures de sécurités, préférez mettre en ligne le fichier zip du logiciel sur votre ent par exemple) mais cela permet aux élèves de tester le logiciel de leur côté et d'éventuellement chercher à contourner les sécurités. Une meilleure solution est de faire acheté par son établissement des clefs usb (1Go est largement suffisant !) et d'y mettre le logiciel. Vous pouvez ainsi brancher la clef avant le début de l'évaluation, puis la retirer à la fin de l'évaluation (et il suffit de mettre ces clefs usb à disposition des enseignants pour avoir un système peu contraignant).
+
+## Configuration de la page d'accueil
+
+Par défaut le logiciel ouvre la page du moteur de recherche google. Vous pouvez modifier cette page par défaut en créant (au même endroit que le fichier `EduNuageExam.exe`) un fichier `home.txt` contenant l'adresse url de votre choix.
+
+Vous pouvez par exemple mettre l'adresse url de votre ENT. Les élèves n'ont alors plus qu'à se connecter pour accéder au message contenant le lien vers le fichier partagé.
+
+Vous pouvez également mettre directement l'url du fichier partagé. Ainsi l'élève a juste à lancer le logiciel, mais cela nécessite alors de modifier le fichier `home.txt` à chaque évaluation.
+
+## Limites du logiciel
+
+Si ce logiciel permet de limiter le risque de triche, il ne permet pas de le bloquer entièrement. Le système d'enregristement des comportements suspects permet (s'il est correctement utilisé) de détecter certaines triches que le logiciel n'a pas réussi à bloqué. Si cela devrait être suffisement pour la quasi totalité des cas, il reste en revanche toujours des moyens avancés de contourner toutes ces mesures de sécurités. 
+
+N'oubliez pas non plus que la triche peut avoir lieu par des moyens externes à l'ordinateur (téléphone, montre connecté, anti-sèche, etc.).
