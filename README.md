@@ -88,3 +88,13 @@ Vous pouvez également mettre directement l'url du fichier partagé. Ainsi l'él
 Si ce logiciel permet de limiter le risque de triche, il ne permet pas de le bloquer entièrement. Le système d'enregristement des comportements suspects permet (s'il est correctement utilisé) de détecter certaines triches que le logiciel n'a pas réussi à bloqué. Si cela devrait être suffisement pour la quasi totalité des cas, il reste en revanche toujours des moyens avancés de contourner toutes ces mesures de sécurités. 
 
 N'oubliez pas non plus que la triche peut avoir lieu par des moyens externes à l'ordinateur (téléphone, montre connecté, anti-sèche, etc.).
+
+## Les sécurités mises en places
+
+- La fenêtre du logiciel est mise en plein écran et le mode "Toujours au dessus" est activé.
+
+- Si la fenêtre du logiciel n'est plus active, elle essaie de redevenir active.
+
+- Le logiciel enregistre les comportements suspects et prend éventuellement des captures d'écran.
+
+- Le presse-papier est vidé au lancement du logiciel
