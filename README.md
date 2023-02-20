@@ -12,15 +12,17 @@ Certains élèves ont des aménagements afin de rédiger leurs devoirs de maniè
 
 ## Fonctionnement du logiciel (du point de vu de l'élève)
 
-- L'élève lance le logiciel
+- L'élève lance le logiciel.
 
-- L'élève récupère le lien du devoir (par exemple via la messagerie de son ENT)
+- L'élève ouvre le lien du devoir (qui a par exemple été envoyé via la messagerie de son ENT).
 
-- L'élève clic sur le bouton débuter l'examen, si possible devant l'enseignant
+- Le logiciel demande à l'élève s'il souhaite débuter l'examen. L'élève accepte (si possible devant l'enseignant).
 
 - L'élève compose son devoir. L'application est en plein écran et il n'a pas accès au reste de son ordinateur.
 
-- L'élève appelle l'enseignant et l'élève quitte le logiciel. En cas de comportement suspect, un message donne des détails à l'enseignant.
+- L'élève appelle l'enseignant puis l'enseignant donne à l'élève l'autorisation de quitter l'examen .
+
+- L'élève quitte l'exame. Un message donne l'heure de début et de fin de l'examen et signale à l'enseignant tout comportement suspect.
 
 ## Fonctionnement du logiciel (du point de vu de l'enseignant)
 
@@ -42,5 +44,17 @@ Certains élèves ont des aménagements afin de rédiger leurs devoirs de maniè
 
 ![image](https://user-images.githubusercontent.com/53106394/220180743-c187a880-747c-44d2-b6af-a5dde9bac5d3.png)
 
-- L'élève lance le lo
+- L'élève lance le logiciel, ouvre le lien du devoir, et clic sur le bouton pour débuter l'examen (si possible devant l'enseignant)
+
+- L'élève compose son devoir. L'application est en plein écran et il n'a pas accès au reste de son ordinateur.
+
+- L'élève appelle l'enseignant puis l'enseignant donne à l'élève l'autorisation de quitter l'examen.
+
+- L'enseignant vérifie la cohérence des informations qui s'affichent :
+  - Date de début et de fin de l'examen
+  - Présence de comportement suspect ou non
+
+- L'enseignant retire le partage pour éviter à l'élève de modifier le document à postériori
+
+![image](https://user-images.githubusercontent.com/53106394/220181775-ffaa88fc-fb51-480e-bb40-d3fdc30cd723.png)
 
