@@ -118,6 +118,9 @@ app.whenReady().then(() => {
           EduNuageExam.mainWindow.setAlwaysOnTop(true, 'pop-up-menu');
 
           EduNuageExam.mainWindow.webContents.setWindowOpenHandler(({ url }) => {
+            // On le log pas cette url car l'élève a peut-être juste clic sur le logo en haut à gauche par erreur ...
+            if (url === 'https://www.collaboraoffice.com/') return { action: 'deny' };
+
             const event = {
               type: 'triedOpenUrl',
               time: new Date().getTime(),
