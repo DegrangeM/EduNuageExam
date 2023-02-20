@@ -5,7 +5,7 @@
 
 *EduNuageExam est une solution permettant de faire composer les élèves dans une interface sécurisée.*
 
-Certains élèves ont des aménagements afin de rédiger leurs devoirs de manière informatique. Malheureusement certains en profite pour tricher (utilisation de site de traduction en ligne par exemple). Ce logiciel qui s'utilise conjointement avec le cloud de l'éducation nationnale permet de limiter les risques de triches en bloquant les élèves sur l'interface de rédaction afin d'éviter toute consultation d'un autre site web ou fichier présent sur l'ordinateur.
+Certains élèves ont des aménagements afin de rédiger leurs devoirs de manière informatique. Malheureusement certains en profite pour tricher (utilisation de site de traduction en ligne par exemple). Ce logiciel qui s'utilise conjointement avec le cloud de l'éducation nationnale permet de limiter les risques de triches en bloquant les élèves sur l'interface de rédaction afin d'éviter toute consultation d'un autre site web ou fichier présent sur l'ordinateur. Le logiciel 
 
 ![image](https://user-images.githubusercontent.com/53106394/220179066-473031ce-4272-4149-a89c-691a4e7dfc54.png)
 
@@ -22,7 +22,7 @@ Certains élèves ont des aménagements afin de rédiger leurs devoirs de maniè
 
 - L'élève appelle l'enseignant puis l'enseignant donne à l'élève l'autorisation de quitter l'examen .
 
-- L'élève quitte l'exame. Un message donne l'heure de début et de fin de l'examen et signale à l'enseignant tout comportement suspect.
+- L'élève quitte l'exame. Un message donne l'heure de début et de fin de l'examen et signale à l'enseignant tout [comportement suspect](https://github.com/DegrangeM/EduNuageExam/wiki/Les-comportements-suspects).
 
 ## Fonctionnement du logiciel (du point de vu de l'enseignant)
 
@@ -54,7 +54,7 @@ Certains élèves ont des aménagements afin de rédiger leurs devoirs de maniè
 
 - L'enseignant vérifie la cohérence des informations qui s'affichent :
   - Date de début et de fin de l'examen (l'élève peut avoir quitté le logiciel entre temps ...)
-  - Présence de comportement suspect ou non
+  - Présence de [comportements suspects](https://github.com/DegrangeM/EduNuageExam/wiki/Les-comportements-suspects) ou non
   - Certains comportement suspect génère des captures d'écrans que l'enseignant peut consulter.
 
 - L'enseignant retire le partage (pour éviter que l'élève puisse modifier le document à postériori)
