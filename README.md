@@ -89,7 +89,7 @@ Si ce logiciel permet de limiter le risque de triche, il ne permet pas de le blo
 
 N'oubliez pas non plus que la triche peut avoir lieu par des moyens externes à l'ordinateur (téléphone, montre connecté, anti-sèche, etc.).
 
-## Les sécurités mises en places
+## Les sécurités mises en place
 
 - La fenêtre du logiciel est mise en plein écran et le mode "Toujours au dessus" est activé.
 
