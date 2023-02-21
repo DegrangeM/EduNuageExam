@@ -7,7 +7,7 @@
 
 ![image](https://user-images.githubusercontent.com/53106394/220195418-f24f704f-aecc-40d4-9669-50eb2a273fcb.png)
 
-Certains élèves ont des aménagements afin de rédiger leurs devoirs sur ordinateur. Malheureusement certains en profitent pour tricher (utilisation de site de traduction en ligne par exemple). Ce logiciel qui s'utilise conjointement avec le cloud de l'éducation nationnale permet de limiter les risques de triches en bloquant les élèves sur l'interface de rédaction afin d'éviter toute consultation d'un autre site web ou fichier présent sur l'ordinateur. Le logiciel 
+Il peut arriver que des élèves aient à composer des travaux notés sur ordinateur (par exemple dans le cadre d'une rédaction, ou bien par exemple des élèves qui bénéficieraient d'aménagements afin de rédiger sur ordinateur). Malheureusement certains en profitent pour tricher (utilisation de site de traduction en ligne par exemple). Ce logiciel qui s'utilise conjointement avec le cloud de l'éducation nationnale permet de limiter les risques de triches en bloquant les élèves sur l'interface de rédaction afin d'éviter toute consultation d'un autre site web ou fichier présent sur l'ordinateur.
 
 ![image](https://user-images.githubusercontent.com/53106394/220179066-473031ce-4272-4149-a89c-691a4e7dfc54.png)
 
@@ -22,9 +22,9 @@ Certains élèves ont des aménagements afin de rédiger leurs devoirs sur ordin
 
 - L'élève compose son devoir. L'application est en plein écran et il n'a pas accès au reste de son ordinateur.
 
-- L'élève appelle l'enseignant puis l'enseignant donne à l'élève l'autorisation de quitter l'examen .
+- L'élève appelle l'enseignant qui donne à l'élève l'autorisation de quitter l'examen.
 
-- L'élève quitte l'exame. Un message donne l'heure de début et de fin de l'examen et signale à l'enseignant tout [comportement suspect](https://github.com/DegrangeM/EduNuageExam/wiki/Les-comportements-suspects).
+- L'élève quitte l'examen. Un message donne l'heure de début et de fin de l'examen et signale à l'enseignant tout [comportement suspect](https://github.com/DegrangeM/EduNuageExam/wiki/Les-comportements-suspects).
 
 ## Fonctionnement du logiciel (du point de vu de l'enseignant)
 
