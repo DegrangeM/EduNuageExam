@@ -7,7 +7,9 @@
 
 ![image](https://user-images.githubusercontent.com/53106394/220195418-f24f704f-aecc-40d4-9669-50eb2a273fcb.png)
 
-Il peut arriver que des élèves aient à composer des travaux notés sur ordinateur (par exemple dans le cadre d'une rédaction, ou bien par exemple des élèves qui bénéficieraient d'aménagements afin de rédiger sur ordinateur). Malheureusement certains en profitent pour tricher (utilisation de site de traduction en ligne par exemple). Ce logiciel qui s'utilise conjointement avec le cloud de l'éducation nationnale (ou via un [autre cloud pris en charge](https://github.com/DegrangeM/EduNuageExam/wiki/Les-clouds-pris-en-charge)) permet de limiter les risques de triches en bloquant les élèves sur l'interface de rédaction afin d'éviter toute consultation d'un autre site web ou fichier présent sur l'ordinateur.
+Il peut arriver que des élèves aient à composer des travaux notés sur ordinateur (par exemple dans le cadre d'une rédaction, ou bien par exemple des élèves qui bénéficieraient d'aménagements afin de rédiger sur ordinateur). Malheureusement certains en profitent pour tricher (utilisation de site de traduction en ligne par exemple).
+
+Ce logiciel qui s'utilise conjointement avec le cloud de l'éducation nationnale (ou via un [autre cloud pris en charge](https://github.com/DegrangeM/EduNuageExam/wiki/Les-clouds-pris-en-charge)) permet de limiter les risques de triches en bloquant les élèves sur l'interface de rédaction afin d'éviter toute consultation d'un autre site web ou fichier présent sur l'ordinateur.
 
 ![image](https://user-images.githubusercontent.com/53106394/220179066-473031ce-4272-4149-a89c-691a4e7dfc54.png)
 
