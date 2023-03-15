@@ -1,6 +1,6 @@
 {
   "name": "EduNuageExam",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Un outil pour permettre aux élèves de passer des examens sur le cloud officiel de l'éducation nationnale",
   "main": "./src/main/app.js",
   "scripts": {
