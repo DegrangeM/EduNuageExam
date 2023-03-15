@@ -7,7 +7,7 @@
 
 ![image](https://user-images.githubusercontent.com/53106394/220195418-f24f704f-aecc-40d4-9669-50eb2a273fcb.png)
 
-Il peut arriver que des élèves aient à composer des travaux notés sur ordinateur (par exemple dans le cadre d'une rédaction, ou bien par exemple des élèves qui bénéficieraient d'aménagements afin de rédiger sur ordinateur). Malheureusement certains en profitent pour tricher (utilisation de site de traduction en ligne par exemple). Ce logiciel qui s'utilise conjointement avec le cloud de l'éducation nationnale permet de limiter les risques de triches en bloquant les élèves sur l'interface de rédaction afin d'éviter toute consultation d'un autre site web ou fichier présent sur l'ordinateur.
+Il peut arriver que des élèves aient à composer des travaux notés sur ordinateur (par exemple dans le cadre d'une rédaction, ou bien par exemple des élèves qui bénéficieraient d'aménagements afin de rédiger sur ordinateur). Malheureusement certains en profitent pour tricher (utilisation de site de traduction en ligne par exemple). Ce logiciel qui s'utilise conjointement avec le cloud de l'éducation nationnale (ou via un [autre cloud pris en charge](https://github.com/DegrangeM/EduNuageExam/wiki/Les-clouds-pris-en-charge)) permet de limiter les risques de triches en bloquant les élèves sur l'interface de rédaction afin d'éviter toute consultation d'un autre site web ou fichier présent sur l'ordinateur.
 
 ![image](https://user-images.githubusercontent.com/53106394/220179066-473031ce-4272-4149-a89c-691a4e7dfc54.png)
 
@@ -28,23 +28,25 @@ Il peut arriver que des élèves aient à composer des travaux notés sur ordina
 
 ## Fonctionnement du logiciel (du point de vu de l'enseignant)
 
-- L'enseignant se rend sur le [cloud de l'éducation nationale](https://nuage.apps.education.fr/)
+- L'enseignant créé son document partagé sur le cloud de l'Education Nationale (ou sur un autre cloud parmi la [liste des services pris en charge](https://github.com/DegrangeM/EduNuageExam/wiki/Les-clouds-pris-en-charge)) :
 
-- L'enseignant créé un nouveau document texte
+  - L'enseignant se rend sur le [cloud de l'éducation nationale](https://nuage.apps.education.fr/)
 
-  <img src="https://user-images.githubusercontent.com/53106394/220179566-dbba53de-b307-40a1-8424-5e454573b693.png" height="200" />
+  - L'enseignant créé un nouveau document texte
 
-- L'enseignant créé un lien de partage
+    <img src="https://user-images.githubusercontent.com/53106394/220179566-dbba53de-b307-40a1-8424-5e454573b693.png" height="200" />
 
-  <img src="https://user-images.githubusercontent.com/53106394/220180416-05fc1114-80ac-4c4e-b793-bc0b9cdb14c1.png" height="200" />
+  - L'enseignant créé un lien de partage
 
-- L'enseignant donne les droits de modification
+    <img src="https://user-images.githubusercontent.com/53106394/220180416-05fc1114-80ac-4c4e-b793-bc0b9cdb14c1.png" height="200" />
 
-  <img src="https://user-images.githubusercontent.com/53106394/220180135-7a382ded-1ebb-4c43-8db4-6dd22192786e.png" height="200" />
+  - L'enseignant donne les droits de modification
 
-- L'enseignant copie le lien de partage et l'envoi à l'élève (via la messagerie de l'ent par exemple)
+    <img src="https://user-images.githubusercontent.com/53106394/220180135-7a382ded-1ebb-4c43-8db4-6dd22192786e.png" height="200" />
 
-  <img src="https://user-images.githubusercontent.com/53106394/220180743-c187a880-747c-44d2-b6af-a5dde9bac5d3.png" />
+  - L'enseignant copie le lien de partage et l'envoi à l'élève (via la messagerie de l'ent par exemple)
+
+    <img src="https://user-images.githubusercontent.com/53106394/220180743-c187a880-747c-44d2-b6af-a5dde9bac5d3.png" />
 
 - L'enseignant peut demander par précaution à l'élève de fermer tous les logiciels ouvert sur son ordinateur.
 
