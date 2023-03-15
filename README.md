@@ -30,7 +30,7 @@ Ce logiciel qui s'utilise conjointement avec le cloud de l'éducation nationnale
 
 ## Fonctionnement du logiciel (du point de vu de l'enseignant)
 
-- L'enseignant créé son document partagé sur le cloud de l'Education Nationale (ou sur un autre cloud parmi la [liste des services pris en charge](https://github.com/DegrangeM/EduNuageExam/wiki/Les-clouds-pris-en-charge)) :
+- L'enseignant créé son document partagé sur le cloud de l'Education Nationale (ou sur un [autre cloud pris en charge](https://github.com/DegrangeM/EduNuageExam/wiki/Les-clouds-pris-en-charge)) :
 
   - L'enseignant se rend sur le [cloud de l'éducation nationale](https://nuage.apps.education.fr/)
 
