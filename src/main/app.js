@@ -73,6 +73,7 @@ app.whenReady()
 
     EduNuageExam.mainWindow.webContents.on('dom-ready', function () {
       const currentURL = new URL(this.getURL())
+      let currentCloud = false;
       if (/^nuage[0-9]+\.apps\.education\.fr$/.test(currentURL.hostname) && currentURL.pathname.startsWith('/index.php/s/')) {
         currentCloud = 'EN';
       }
