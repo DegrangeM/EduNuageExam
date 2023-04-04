@@ -23,7 +23,9 @@ app.whenReady()
       height: 600,
       useContentSize: true,
       icon: path.join(__dirname, '../../resources/logo.png')
-    })
+    });
+
+    EduNuageExam.mainWindow.maximize();
 
     const menu = Menu.buildFromTemplate(
       [
