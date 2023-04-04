@@ -81,7 +81,7 @@ Ce logiciel qui s'utilise conjointement avec le cloud de l'éducation nationnale
 
 ## Configuration de la page d'accueil
 
-Par défaut le logiciel ouvre la page du moteur de recherche google. Vous pouvez modifier cette page par défaut en créant (au même endroit que le fichier `EduNuageExam.exe`) un fichier `home.txt` contenant l'adresse url de votre choix.
+Par défaut le logiciel ouvre la page du moteur de recherche google. Vous pouvez modifier cette page par défaut en modifiant (au même endroit que le fichier `EduNuageExam.exe`) le fichier `home.txt` contenant l'adresse url de votre choix.
 
 Vous pouvez par exemple mettre l'adresse url de votre ENT. Les élèves n'ont alors plus qu'à se connecter pour accéder au message contenant le lien vers le fichier partagé.
 
