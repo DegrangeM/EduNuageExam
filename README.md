@@ -57,7 +57,27 @@ Ce logiciel qui s'utilise conjointement avec le cloud de l'éducation nationnale
   
   <details>
   <summary>Utilisation avec Google Drive</summary>
-  ToDO</details>
+  
+  - L'enseignant se rend sur son [drive Google](https://drive.google.com/drive/my-drive) ou sur [Google Docs](https://docs.google.com/document/).
+  
+  - L'enseignant créé son document Google Docs.
+  
+  - L'enseignant appuis sur le bouton partagé en haut à droite
+  
+  - L'enseignant règle l'accès général sur  `Tous les utlisateurs qui ont le lien` au lieu de `Limité`.
+  
+    ![image](https://user-images.githubusercontent.com/53106394/230396891-a1f63403-9cd8-4571-ae96-ce60f41a53c4.png)
+  
+  - L'enseignant règle les droits sur `Editeur` au lieu de `Lecteur`.
+  
+    ![image](https://user-images.githubusercontent.com/53106394/230397646-ac82a92b-b622-4434-ae42-4bfca4eb6b5e.png)
+  
+  - L'enseignant copie le lien de partage et l'envoi à l'élève (via la messagerie de l'ent par exemple)
+  
+    ![image](https://user-images.githubusercontent.com/53106394/230397824-d3b2c66a-f295-4fd5-8a6e-49d922f9be0b.png)
+
+
+  </details>
 
 - L'enseignant peut demander par précaution à l'élève de fermer tous les logiciels ouvert sur son ordinateur.
 
