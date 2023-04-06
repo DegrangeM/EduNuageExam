@@ -32,6 +32,9 @@ Ce logiciel qui s'utilise conjointement avec le cloud de l'éducation nationnale
 
 - L'enseignant créé son document partagé sur le cloud de l'Education Nationale (ou sur un [autre cloud pris en charge](https://github.com/DegrangeM/EduNuageExam/wiki/Les-clouds-pris-en-charge)) :
 
+  <details>
+  <summary>Utilisation avec le cloud de l'Education Nationale</summary>
+  
   - L'enseignant se rend sur le [cloud de l'éducation nationale](https://nuage.apps.education.fr/)
 
   - L'enseignant créé un nouveau document texte
@@ -49,6 +52,12 @@ Ce logiciel qui s'utilise conjointement avec le cloud de l'éducation nationnale
   - L'enseignant copie le lien de partage et l'envoi à l'élève (via la messagerie de l'ent par exemple)
 
     <img src="https://user-images.githubusercontent.com/53106394/220180743-c187a880-747c-44d2-b6af-a5dde9bac5d3.png" />
+  
+  </details>
+  
+  <details>
+  <summary>Utilisation avec Google Drive</summary>
+  ToDO</details>
 
 - L'enseignant peut demander par précaution à l'élève de fermer tous les logiciels ouvert sur son ordinateur.
 
