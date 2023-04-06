@@ -76,7 +76,7 @@ Ce logiciel qui s'utilise conjointement avec le cloud de l'éducation nationnale
 
   <img src="https://user-images.githubusercontent.com/53106394/220181775-ffaa88fc-fb51-480e-bb40-d3fdc30cd723.png" height="200" />
 
-- L'enseignant peut ensuite consulter la copie à tout moment via le cloud de l'EN (astuce : il peut même consulter la copie pendant que l'élève la rédige !)
+- L'enseignant peut ensuite consulter la copie à tout moment sur son cloud (astuce : il peut même consulter la copie pendant que l'élève la rédige !)
 
 ## Remarques et conseils
 
